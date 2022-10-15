@@ -6,6 +6,7 @@ import OurPartnersComponents from '../components/ourpartnerscomponents';
 import OurPartnersFormComponents from '../components/ourpartnersformcomponents';
 import IconComponents from '../components/iconcomponents';
 import NoificationComponents from '../components/noificationcomponents';
+import Script from "next/script";
 
 
 function contactuspages() {
@@ -14,6 +15,7 @@ function contactuspages() {
         <FooterTop />
         <section>
             <DetailsComponent />
+            <Script src="../assets/js/custom.js"/>
             <div class="container-fluid home-default-padding">
                 <div class="row contact-us-btn-components-display-flex">
                     <OurPartnersComponents />
