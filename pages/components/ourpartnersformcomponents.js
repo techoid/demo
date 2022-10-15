@@ -1,5 +1,8 @@
+import Script from "next/script";
+
 function ourpartnersformcomponents() {
     return <>
+        <Script src="../assets/js/custom.js"/>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 our-partners-btn-components-display-width">
             <div class="contact-us-section-div-button">
                 <h1 class="contact-us-section-button-heading-bottom">Register your Company</h1>
